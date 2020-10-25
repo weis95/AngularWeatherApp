@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="enteredCity">
+        <h3> {{ location }}</h3>
+        <h4 *ngIf="localWeather"> {{ localWeather }}°</h4>
+    </div>
+</div>
+<div class="container" >
+    <div class="enteredCity">
+        <input (keydown.enter)="save($event)">
+            <div *ngIf="city">
+            <h3> {{ city }}</h3>
+            <h4> {{ weather }}°</h4>
+            </div>
+    </div>
+</div>
