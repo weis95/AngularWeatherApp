@@ -3,6 +3,7 @@ ng serve --open to run
 Works in Chrome.
 
 Add city input syntax: city,countrycode
+Then press enter to add the city and see the current temperature.
 
 example: Helsinki,fi
 
